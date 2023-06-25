@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valorant </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel = "icon" href = "images/valorantlogo.png" type = "image/x-icon">
+       
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+</head>
+<body id="body" style="background-image: url(images/valorantbg.jpg);">
+  <style>
+    body{
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+    
+  <header>
+        
+       <div class="logo">
+        <img class="valogo" src="images/valogo.png" alt="">
+      </div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+       
+<div class="navbar">
+ 
+      <ul> <a  class="aboutbtn "href="index.html" >HOME</button></a>
+       
+         <a class="aboutbtn active" href="agents.html" >AGENTS</button></a>
+         <a class="aboutbtn" href="guns.html" >GUNS</button></a>
+         <a class="aboutbtn " href="about.html" >ABOUT</button></a>
+         <div class="dropdown">
+          <button onclick="valorantagentsdropdown()" class="dropbtn">Valorant Agents</button>
+          <div id="myDropdown" class="dropdown-content">
+            <button class="valorantagents gekko" onclick="gekkoinfo()"> gekko <img class="agentsicon" src="images/gekko.png" alt=""></button>
+          <button class="valorantagents phoenix" onclick="phoenixinfo()" href="" > phoenix <img class="agentsicon" src="images/phoenix.png" alt=""></button>
+          <button class="valorantagents raze" onclick="razeinfo() "> raze <img class="agentsicon" src="images/raze.png" alt=""></button>
+          <button class="valorantagents jett" onclick="jettinfo()" > jett <img class="agentsicon" src="images/jett.png" alt=""></button>
+          <button class="valorantagents yoru"  onclick="yoruinfo() "> yoru <img class="agentsicon" src="images/yoru.png" alt=""></button>
+          <button class="valorantagents neon" onclick="neoninfo() "> neon <img class="agentsicon" src="images/neon.png" alt=""></button>
+          <button class="valorantagents reyna" onclick="reynainfo()"> reyna <img class="agentsicon" src="images/reyna.png" alt=""></button>
+          <button class="valorantagents sage" onclick="sageinfo() "> sage <img class="agentsicon" src="images/sage.png" alt=""></button>
+          <button class="valorantagents cypher" onclick="cypherinfo() "> cypher <img class="agentsicon" src="images/cypher.png" alt=""></button>
+          <button class="valorantagents chamber" onclick="chamberinfo() "> chamber <img class="agentsicon" src="images/chamber.png" alt=""></button>
+          <button class="valorantagents killjoy" onclick="killjoyinfo()"> killjoy <img class="agentsicon" src="images/killjoy.png" alt=""></button>
+          <button class="valorantagents omen"  onclick="omeninfo()" > omen <img class="agentsicon" src="images/omen.png" alt=""></button>
+          <button class="valorantagents viper" onclick="viperinfo() "> viper <img class="agentsicon" src="images/viper.png" alt=""></button>
+          <button class="valorantagents brimstone" onclick="brimstoneinfo() "> brimstone <img class="agentsicon" src="images/brimstone.png" alt=""></button>
+          <button class="valorantagents astra" onclick="astrainfo() "> astra <img class="agentsicon" src="images/astra.png" alt=""></button>
+          <button class="valorantagents harbor" onclick="harborinfo() "> harbor <img class="agentsicon" src="images/harbor.png" alt=""></button>
+          <button class="valorantagents sova" onclick="sovainfo()"> sova <img class="agentsicon" src="images/sova.png" alt=""></button>
+          <button class="valorantagents breach" onclick="breachinfo()  "> breach <img class="agentsicon" src="images/breach.png" alt=""></button>
+          <button class="valorantagents skye" onclick="skyeinfo() "> skye <img class="agentsicon" src="images/skye.png" alt=""></button>
+          <button class="valorantagents kayo" onclick="kayoinfo() "> KAY/O <img class="agentsicon" src="images/kayo.png" alt=""></button>
+          <button class="valorantagents fade" onclick="fadeinfo()"> Fade <img class="agentsicon" src="images/fade.png" alt=""></button>
+        </div>
+          </div>
+      </ul>
+     
+   
+</div>
+
+<div class="search">
+      
+  
+  <div class="searchiconbtn">
+    <span><input id="searchagents" class="searchbox" type="text" placeholder="Enter agent name.."  ></span><span><input id="searchbtn" class="submitbutton" type="submit" value="Search"></span>
+  </div>
+  </div>
+
+  
+</header>
+<div id="valotext" class="textforvaloagents"><h1>Search Agents to see info via search box or using the valorant agents button above</h1>
+</div>
+
+      
+      
+      
+
+
+  
+    
+
+    <div id="valor" class="agentsinfo">
+      
+    </div>
+    <div class="agentdiv">
+  
+     
+      </div>
+
+      
+ 
+      <script src="js/reynainfo.js"></script>
+      <script src="js/sageinfo.js"></script>
+      <script src="js/yoruinfo.js"></script>
+      <script src="js/omeninfo.js"></script>
+      <script src="js/neoninfo.js"></script>
+      <script src="js/brimstoneinfo.js"></script>
+      <script src="js/astrainfo.js"></script>
+      <script src="js/phoenixinfo.js"></script>
+      <script src="js/viperinfo.js"></script>
+      <script src="js/harborinfo.js"></script>
+      <script src="js/killjoyinfo.js"></script>
+      <script src="js/sovainfo.js"></script>
+      <script src="js/cypherinfo.js"></script>
+      <script src="js/skyeinfo.js"></script>
+      <script src="js/kayoinfo.js"></script>
+      <script src="js/chamberinfo.js"></script>
+      <script src="js/razeinfo.js"></script>
+      <script src="js/breachinfo.js"></script>
+      <script src="js/fadeinfo.js"></script>
+      <script src="js/gekkoinfo.js"></script>
+<script src="js/hamburger.js"></script>
+<script src="js/fetch.js"></script>
+
+<script src="js/agentsbutton.js"></script>
+</body>
+</html>

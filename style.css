@@ -1,0 +1,1181 @@
+
+  body {
+
+    background-color: rgb(247, 247, 247);
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #c7c7c7;
+  }
+  
+
+  .frontimage{
+    margin-top: 70px;
+    padding-left: 100px;
+    height: 40%;
+   
+    width: 40%;
+
+  }
+  @media only screen and (max-width: 480px) {
+    .frontimage {
+      width: 100%;
+    }
+  }
+
+  .column {
+    float: left;
+    width: 50%;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  * {box-sizing: border-box}
+  body {font-family: Verdana, sans-serif; margin:0}
+  .mySlides {display: none;
+    align-items: center;
+    text-align: center;
+  
+  }
+  img {vertical-align: middle;}
+  
+
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+
+    background-color: transparent;
+  }
+  
+  .next {
+    right: 20;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+ 
+
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  @media screen and (max-width:600px) {
+    .dot{
+      height: 5px;
+      width: 5px;
+      margin: 0 .5px;
+    }
+
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  .desc{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .desc{
+      font-size: 10px;
+    }
+  }
+  .ffdesc{
+    text-align: center;
+    font-size: 15px;
+    color: white;
+  }
+  @media only screen and (max-width: 600px) {
+    .ffdesc{
+      font-size: 6px;
+    }
+  }
+
+ 
+  .aboutbtn:hover {
+    background-color: rgba(156, 155, 155, 0.8);
+    color: white;
+  }
+
+  .inputcb {
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    overflow: hidden;
+  }
+  .cbdarkm{
+    font-size: 10px;
+  }
+  .valimagefps{
+    text-align: center;
+    position: relative;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+    align-items: center;
+
+  }
+  .valtext{
+    font-size: medium;
+    margin-right: 300px;
+    text-align: justify;
+  }
+  @media only screen and (max-width: 480px) {
+    .valimagefps {
+      width: 100%;
+    }
+  }
+  .topnav-right {
+    float: right;
+    padding-bottom: 20px;
+  }
+  footer{ 
+    position:relative;
+    bottom:0;
+    left:0;
+    width:100%;
+    height: 90px;
+    background-color: #383838;
+
+
+  }
+
+  @media only screen and (max-width: 480px) {
+    footer {
+      padding-bottom: 100%;
+    }
+  }
+
+  .valogo{
+    height: auto;
+    width: 70px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+  }
+
+ .aboutbtn:hover{
+  background-color:  #FF3333;
+  color: white;
+ }
+ @media only screen and (max-width: 1100px) {
+.aboutbtn{
+  font-size: 14px;
+}
+ }
+ @media only screen and (max-width: 600px) {
+  .aboutbtn {
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    color: #FF3333;
+    margin-top: 0%;
+    font-weight: bolder;
+    align-items: center;
+  }
+}
+.active{
+  background-color: #FF3333;
+  color: white;
+}
+.picturevalo{
+  height: auto;
+  width:700px;
+ align-items: center;
+ float: none;
+ text-align: center;
+}
+  .box {
+
+    
+    width: 100%;
+    background-color: rgb(228, 225, 225);
+    padding: 10px;
+    display: block;
+    height: 100vh;
+  }
+
+  
+
+@media screen and (max-width:900px) {
+  .picturevalo{
+    height: auto;
+    width: 500px;
+  }
+  .box{
+    margin-left: 50px !important;
+    width: auto;
+  }
+}
+@media screen and (max-width:700px) {
+  .picturevalo{
+    height: auto;
+    width: 400px;
+  }
+  .box{
+    margin-left: 50px !important;
+    width: auto;
+  }
+}
+@media screen and (max-width:600px) {
+  .picturevalo{
+    height: auto;
+    width: 300px;
+  }
+  .box{
+width: auto;
+
+    margin-left: 20px !important;
+    padding: auto;
+   }
+}
+
+.aboutbtn{
+  display: block;
+  padding: 10px 25px;
+  font-size: 20px;
+  transition: 0.2s;
+  font-size: 14px;
+background-color: transparent;
+margin-right: 20px;
+color: white;
+font-weight: bold;
+text-decoration: none;
+border-radius: 7px;
+margin-bottom: 25px;
+}
+.navbar{
+  align-items: left;
+  text-align: left;
+  float: left;
+}
+a{text-decoration: none;}
+.navbar ul {
+  display: flex;
+}
+.hamburger{
+  display: none;
+  }
+  @media screen and (max-width:1100px) {
+    .hamburger{
+      display: block;
+    cursor: pointer;
+    margin-right: 20px;
+    }
+    .hamburger .line {
+      display: block;
+      width: 35px !important;
+      height: 5px !important;
+      background-color:#FF3333 !important;
+      margin: 6px 0 !important;
+    
+    }
+    .valogo{
+      height: auto;
+      width: 60px;
+      padding-left: 20px;
+      margin: 6px 0 !important;
+    }
+    .navbar{
+  height: 0;
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background-color: black;
+       transition: 0.5s;
+       overflow: hidden;
+       color: white;
+  z-index: 10;
+    }
+    .navbar.active{
+      margin-top: 380px;
+      height: 300px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      z-index: 10;
+      background-color: #2c2c2c;
+    }
+    .navbar ul{
+      display: block;
+  width: fit-content;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 10;
+    }
+    .navbar ul li a{
+      margin-bottom: 12px;
+      color: black;
+      font-size: 10px;
+      color: white;
+      z-index: 10;
+    }
+  }
+  
+  @media screen and (max-width:600px) {
+    .hamburger{
+      display: block;
+    cursor: pointer;
+    margin-right: 20px;
+    }
+    .hamburger .line {
+      display: block;
+      width: 20px !important;
+      height: 2px !important;
+      background-color:#FF3333 !important;
+      margin: 3px 0 !important;
+    
+    }
+    header{
+      height: 50px;
+      padding: 0 5px;
+    }
+    .valogo{
+      height: auto;
+      width: 30px;
+      padding-left: 0px;
+      margin: 3px 0 !important;
+      padding-right: 10px;
+    }
+    .navbar{
+      margin-top: 0;
+      padding: 0;
+  height: 0 ;
+      position: absolute;
+      left: 0;
+      right: 0;
+      width: 100%;
+       transition: 0.5s;
+       overflow: hidden;
+       color: white;
+       width: 100%;
+       z-index: 10;
+    }
+    .navbar.active{
+      margin-top: 350px;
+      height: 300px;
+      padding-bottom: 0;
+      margin-bottom: 0;
+      z-index: 10;
+    }
+    .navbar ul{
+      display: block;
+  width: fit-content;
+  margin: 80px auto 0 auto;
+  text-align: center;
+  align-items: center;
+  transition: 0.5s;
+  z-index: 10;
+    }
+    .navbar ul li a{
+      margin-bottom: 12px;
+      color: black;
+      font-size: 14px;
+      color: white;
+      z-index: 10;
+    }
+  }
+
+  header{
+    position: relative;
+    width: 100%;
+    height: 80px;
+    background-color:#2c2c2c ;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+padding-top: 30px;
+  } 
+
+ @media screen and (max-width: 1100px) {
+ 
+   header{
+    padding: 0 50px;
+   }
+  }
+ @media screen and (max-width: 1350) {
+ 
+   header{
+    padding: 0 50px;
+   }
+  }
+ 
+ @media screen and (max-width: 600px) {
+   .navbar {
+     margin: auto;
+     margin: auto;
+    
+     padding: 0 0 0 0;
+   }
+   
+ }
+
+.active{
+  background-color: #FF3333;
+}
+.search{
+margin-left: 40px;
+margin-bottom: 30px;
+display: flex;
+float: right;
+align-items: right;
+text-align: right;
+}
+.searchiconbtn{
+  display: flex;
+  float: right;
+  text-align: right;
+  align-items: right;
+}
+@media screen and (max-width:1100px) {
+  .search{
+    font-size: 14px;
+    margin-left: 10px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width:900px) {
+  .search{
+    font-size: 14px;
+    margin-left: 10px;
+  }
+}
+@media screen and (max-width:600px) {
+  .search{
+    margin: auto;
+  }
+}
+
+
+.searchicon{
+
+  height: auto;
+  width: 40px;
+}
+.searchbox{
+  border-radius: 10px;
+  color: black;
+ font-size: 14px;
+ padding-bottom: 10px;
+ padding-top: 10px;
+ text-align: center;
+ width: 220px;
+ background-color: #615f5f;
+ color: white;
+display: flex;
+margin: auto;
+text-transform: capitalize;
+}
+@media screen and (max-width:900px) {
+  .searchbox{
+    font-size: 10px;
+    width: 150px;
+
+  }
+}
+@media screen and (max-width:600px) {
+  .searchbox{
+    font-size: 7px;
+    width: 70px;
+    margin-left: 0;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 0;
+  }
+}
+.searchbox::placeholder{
+  color: white;
+}
+
+.searchtext{
+  margin-bottom: 0;
+  padding: 0;
+
+}
+
+.submitbutton{
+  background-color: #FF3333;
+  color: white;
+padding: 10px 15px 10px;
+margin-left: 10px;
+ border-radius: 10px;
+margin-top: 2px;
+  margin-right: 40px;
+  display: flex;
+
+}
+@media screen and (max-width:900px) {
+  .submitbutton{
+    margin-right: 5px;
+    padding: 7px 12px 7px;
+
+  }
+}
+@media screen and (max-width:600px) {
+  .submitbutton{
+    margin-right: 10px;
+    font-size: 10px;
+    padding: 3px 8px;
+  }
+}
+
+.agentbutton
+{
+ border: 0;
+ background: none;
+ box-shadow: none;
+ border-radius: 0px;
+ color: white;
+ cursor: pointer;
+ display: block;
+}
+.agentpic{
+  height: auto;
+margin-top: 20px;
+  width: 500px;
+ cursor: pointer;
+  float: right;
+  vertical-align: baseline;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nameofagent{
+  float: none;
+  margin-right: 200px;
+}
+.agentsinfo{
+
+background-size: cover;
+background-position: center;
+  margin-top: 15px;
+margin-left: 150px ;
+margin-right: 100px;
+  padding: 10px 50px 10px 50px;
+  color: black;
+  min-height: 100vh;
+  height: 100vh auto;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 0;
+}
+
+.agentdiv{
+
+margin-right: 0;
+  margin-top: 15px;
+  background-color: #2c2c2c;
+  float: left;
+  margin-left: 40px;
+
+    color: white;
+    height: auto;
+    width: 350px;
+    margin-left: 20px;
+    height: auto;
+}
+.agentdisc{
+  font-size: 17px;
+ justify-content: center;
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.agentname{
+  font-size: 30px;
+  font-weight: bold;
+margin-bottom: auto;
+}
+
+.tinapay{
+  float: left;
+  display: flex;
+  height: auto;
+  width: 70px;
+  margin-top: 30px;
+}
+
+.skilltext{
+  font-size: 14px;
+
+
+
+}
+.skilldiv{
+  margin-top: 20px;
+  margin-left: 80px;
+  margin-bottom: 40px;
+  margin-right: 450px;
+  justify-items: auto;
+  text-align: justify;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:900px) {
+  .agentsinfo{
+    display: block;
+  }
+  .skilldiv{
+    margin: auto;
+  }
+  .agentpic{
+    width: 300px;
+  }
+}
+@media screen and (max-width:600px) {
+  .agentsinfo{
+    display: block;
+    margin: 0 0 0 0;
+    padding: auto;
+  }
+  .skilldiv{
+    margin: auto;
+  }
+  .agentpic{
+    width: 200px;
+    margin: auto;
+  }
+}
+@media screen and (max-width:300px) {
+  .agentsinfo{
+    display: block;
+    margin: 0 0 0 0;
+    padding: auto;
+  }
+  .skilldiv{
+    margin: auto;
+  }
+  .agentpic{
+    width: 200px;
+    margin: auto;
+  }
+}
+.skilltextname{
+
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.enlarged-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.valorantagents{
+margin-right: 0;
+  padding: 16px 0px 16px 32px;
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  float: left;
+  height: auto;
+  width: 100%;
+  font-size: 14px;
+  border: none;
+  background-color: #2c2c2c;
+  text-align: left;
+  align-items: left;
+}
+.agentsicon{
+  height: auto;
+  width: 20px;
+  float: right;
+margin-right: 10px;
+}
+.phoenix:hover{
+  background-color: #911111;
+}
+.raze:hover{
+  background-color: #FF7F50 !important;
+}
+.jett:hover{
+  background-color: #21718b;
+}
+.yoru:hover{
+  background-color: #1139a7;
+}
+.neon:hover{
+  background-color: #2d62f1;
+}
+.reyna:hover{
+  background-color: #A020F0;
+}
+.sage:hover{
+  background-color: #3EB489;
+}
+.cypher:hover{
+  background-color: #808080;
+}
+.chamber:hover{
+  background-color: #77670e;
+}
+.killjoy:hover{
+  background-color: #eccc15;
+  color: black;
+}
+.omen:hover{
+  background-color: #5464AC;
+}
+.viper:hover{
+  background-color: #067922;
+}
+.brimstone:hover{
+  background-color: #884800;
+}
+.astra:hover{
+  background-color: #bb1e99;
+}
+.harbor:hover{
+  background-color: #015ca7;
+}
+.sova:hover{
+  background-color: #2a6494;
+}
+.breach:hover{
+  background-color: #664200;
+}
+.skye:hover{
+  background-color: #1d7c00;
+}
+.kayo:hover{
+  background-color: #121f8f;
+}
+.fade:hover{
+  background-color: #c52e08;
+}
+.gekko:hover{
+  background-color: #12b134;
+}
+.dropbtn {
+  background-color: #FF3333;
+  color: white;
+  padding: 10px 32px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+@media screen and (max-width:1100px) {
+  .dropbtn {
+   margin-top: 20px;
+   font-size: 15px;
+  }
+}
+@media screen and (max-width:700px) {
+  .dropbtn {
+  padding: 5px 10px 5px 10px;
+  margin: auto;
+  margin-top: 18px;
+  font-size: 10px;
+  }
+}
+@media screen and (max-width:500px) {
+  .dropbtn {
+  padding: 5px 5px 5px 5px;
+  margin: auto;
+  margin-top: 25px;
+  font-size: 7px;
+  }
+}
+.dropbtn:hover{
+  background-color: #e22121;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-bottom: 25px;
+  margin-right: 20px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #2c2c2c;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+
+.show {display:block;}
+.agentdiff{
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.agentnameinfo{
+ 
+  border-radius: 10PX;
+  width: 500px;
+  padding: 2px 20px 20px 20px;
+}
+
+.textforvaloagents{
+  background-color: #303131ab;
+  padding: 20px 20px 20px 20px;
+  margin: 40px 40px 40px 40px;
+  color: white;
+  
+}
+@media screen and (max-width:1100px) {
+  .textforvaloagents{
+   font-size: 20px;
+    
+  }
+}
+@media screen and (max-width:900px) {
+  .textforvaloagents{
+   font-size: 15px;
+    
+  }
+}
+@media screen and (max-width:600px) {
+  .textforvaloagents{
+   font-size: 10px;
+    
+  }
+}
+.valohomepic{
+ align-items: center;
+ text-align: center;
+ height: 100vh;
+}
+.valohome{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 100px;
+  color: white;
+
+}
+
+#grad {
+  background-image: linear-gradient(to bottom right, rgb(138, 5, 5) , rgb(82, 26, 26), rgb(19, 18, 18));
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.gunsapipistol{
+  display: block;
+
+  margin-top: 20px;
+  color: white;
+  height: auto;
+ 
+}
+.gunsapismg{
+  display: block;
+position: absolute;
+  margin-top: 20px;
+  color: white;
+  height: auto;
+  width: auto;
+
+
+}
+.gunsapishotgun{
+  display: block;
+  top: 230px;
+position: absolute;
+  margin-top: 300px;
+  color: white;
+  height: auto;
+  width: auto;
+ 
+}
+.gunsapirifle{
+  display: block;
+  top:750px;
+position: absolute;
+  margin-top: 20px;
+  color: white;
+  height: auto;
+  width: auto;
+ 
+}
+.gunsapisniper{
+  display: block;
+  
+top: 1000px;
+
+position: absolute;
+  margin-top: 20px;
+  color: white;
+  height: auto;
+  width: auto;
+
+}
+.gunsapiheavy{
+  display: block;
+ 
+top: 1150px;
+position: absolute;
+  margin-top: 100px;
+  color: white;
+  height: auto;
+  width: 120px;
+ 
+}
+.gunsinfo{
+
+
+left: 600px;
+top: 20px;
+position: relative;
+  margin-top: 10px;
+  color: white;
+  height: auto;
+  width: auto;
+
+}
+
+.weaponstats{
+  display: block;
+
+left: 800px;
+position: relative;
+  margin-top: 100px;
+
+  height: auto;
+  width: auto;
+
+}
+@media screen and (max-width:1100px) {
+  .weaponstats{
+    display: block;
+   left: 20%;
+    position: relative;
+    width: 50%;
+    top: 10px;
+    margin-top: auto;
+  }
+  .gunsinfo{
+    top: auto;
+    left: 20%;
+  }
+}
+.pistoldiv{
+display: flex;
+  height: auto;
+  width: 40%;
+}
+.smgdiv{
+  display: flex;
+    height: auto;
+    width: 40%;
+  }
+  .shotgundiv{
+    display: flex;
+      height: auto;
+      width: 40%;
+    }
+    .riflediv{
+      display: flex;
+        height: auto;
+        width: 40%;
+      }
+      .sniperdiv{
+        display: flex;
+          height: auto;
+          width: 40%;
+        }
+        .machinegundiv{
+          display: flex;
+            height: auto;
+            width: 40%;
+          }
+.apiguns{
+  align-items: center;
+  position: absolute;
+    left: 50px;
+    width: auto;
+    height: auto;
+   
+}
+@media screen and (max-width:1100px) {
+  .apiguns{
+    display: block;
+    top: 560px;
+    text-align: center;
+    left: 20%;
+    right: auto;
+  }
+}
+.bodyguns{
+  background-color: #6e6e6e;
+}
+.gunname{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 20px;
+
+}
+.gunnamestats{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+.gunsicon{
+  height: auto;
+  width: 80px;
+
+}
+.gunsiconsmg{
+  height: auto;
+  width: 150px;
+}
+.gunsiconrifle{
+  height: auto;
+  width: 170px;
+}
+.divider{
+  margin-bottom: 5px;
+  height: auto;
+  width: 150px;
+  padding: 5px;
+  background-color: #45464567;
+border: 1px black solid;
+position: relative;
+margin-right: 10px;
+
+}
+.dividersmg{
+  margin-bottom: 5px;
+  margin-right: 10px;
+  height: auto;
+  width: 170px;
+padding: 5px;
+margin-bottom: 55px;
+background-color: #45464567;
+border: 1px black solid;
+
+}
+.dividerrifle{
+  margin-bottom: 5px;
+  height: auto;
+  width: 180px;
+  padding: 5px;
+  background-color:  #45464567;
+ border: 1px black solid;
+  margin-bottom: 65px;
+}
+.dividersniper{
+  margin-bottom: 5px;
+  height: auto;
+  width: 180px;
+  padding: 5px;
+  background-color:  #45464567;
+ border: 1px black solid;
+  margin-bottom: 65px;
+}
+.dividersmg:hover{
+  background-color: #067922;
+  cursor: pointer;
+}
+.divider:hover{
+  background-color: #067922;
+  cursor: pointer;
+}
+.dividerrifle:hover{
+  background-color: #067922;
+  cursor: pointer;
+}
+.dividersniper:hover{
+  background-color: #067922;
+  cursor: pointer;
+}
+.weapondetails{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  color: white;
+  background-color: #3f3e3e54;
+  width: 700px;
+  padding: 10px 20px 20px 20px;
+  display: flex;
+}
+.weaponspecs{
+  background-color: #2c2c2c8f;
+  padding: 10px 10px 10px 10px;
+}
+.weapondamage{
+  background-color: #2c2c2c8f;
+  padding: 10px 10px 10px 10px;
+
+  margin-left: 20px;
+}
